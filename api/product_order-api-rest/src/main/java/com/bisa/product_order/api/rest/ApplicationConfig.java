@@ -19,6 +19,8 @@ public class ApplicationConfig extends Application{
     }
 
     private void addRestResourceClasses(Set<Class<?>> resources){
+        resources.add(com.bisa.product_order.api.rest.FilterService.class);
+        resources.add(com.bisa.product_order.api.rest.OrderService.class);
         resources.add(com.bisa.product_order.api.rest.ProductService.class);
     }
 }
