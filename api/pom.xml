@@ -11,8 +11,8 @@
     <version>1.0.1</version>
     <name>product_order-api</name>
     <modules>
-    <module>serv</module>
-    <module>rest</module>
-    <module>product_order.api.impl</module>
+    <module>product_order-api-serv</module>
+    <module>product_order-api-impl</module>
+    <module>product_order-api-rest</module>
   </modules>
 </project>
