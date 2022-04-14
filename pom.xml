@@ -8,5 +8,8 @@
     <name>product_order</name>
     <modules>
         <module>api</module>
+        <module>product-order-tools</module>
+        <module>product_order-runtime</module>
+        <module>product_order-domain</module>
     </modules>
 </project>
