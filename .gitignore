@@ -81,3 +81,6 @@ nbdist/
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/java,jboss,netbeans,visualstudiocode
+/api/product_order-api-rest/target/
+/api/product_order-api-serv/target/
+/api/product_order-api-impl/target/
