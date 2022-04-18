@@ -84,3 +84,9 @@ nbdist/
 /api/product_order-api-rest/target/
 /api/product_order-api-serv/target/
 /api/product_order-api-impl/target/
+/product_order-domain/target/
+/product-order-tools/target/
+/product_order-runtime/product_order-runtime-serv/target/
+/product_order-runtime/product_order-runtime-impl/target/
+/product_order-runtime/product_order-runtime-api/target/
+/product_order-runtime/product_order-runtime-local/target/

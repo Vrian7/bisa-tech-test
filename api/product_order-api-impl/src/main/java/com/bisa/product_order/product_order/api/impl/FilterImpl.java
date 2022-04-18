@@ -5,11 +5,15 @@ import com.bisa.product_order.api.data.ProductData;
 import com.bisa.product_order.api.serv.FilterServ;
 import java.util.List;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import javax.ejb.Local;
+import javax.ejb.Stateless;
 
 /**
  *
  * @author brian.barrera
  */
+@Stateless
+@Local(FilterServ.class)
 public class FilterImpl implements FilterServ{
     public List<ProductData> searchByOrder(OrderData orderData){
         return null;

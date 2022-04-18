@@ -1,6 +1,5 @@
 package com.bisa.product_order.product_order.domain.model;
 
-import com.oracle.webservices.internal.api.EnvelopeStyle;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;

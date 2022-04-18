@@ -19,7 +19,7 @@ public class ProductImpl implements ProductServ{
 
     @Override
     public ProductData create(ProductData productData){
-        return null;
+        return new ProductData();
     }
 
     @Override

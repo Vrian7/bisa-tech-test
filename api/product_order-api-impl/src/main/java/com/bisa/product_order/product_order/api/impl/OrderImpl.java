@@ -7,11 +7,15 @@ package com.bisa.product_order.product_order.api.impl;
 import com.bisa.product_order.api.data.OrderData;
 import com.bisa.product_order.api.serv.OrderServ;
 import java.util.List;
+import javax.ejb.Local;
+import javax.ejb.Stateless;
 
 /**
  *
  * @author brian.barrera
  */
+@Stateless
+@Local(OrderServ.class)
 public class OrderImpl implements OrderServ{
 
     @Override

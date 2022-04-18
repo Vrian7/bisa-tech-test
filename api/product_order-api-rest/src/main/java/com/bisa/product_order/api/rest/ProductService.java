@@ -11,6 +11,7 @@ import javax.ws.rs.core.Response;
 import com.bisa.product_order.api.serv.ProductServ;
 import java.util.List;
 import javax.ws.rs.POST;
+import com.bisa.product_order.runtime.api.ProductProvider;
 
 /**
  *
@@ -24,7 +25,17 @@ public class ProductService {
     @EJB(name = ProductServ.NAME)
     private ProductServ productServ;
 
-    @POST
+    @EJB(name = ProductProvider.NAME)
+    private ProductProvider prov;
+
+    @GET
+    @Path("/demo")
+    public String demo(){
+        prov.hi();
+        return "print demo string prodddct";
+    }
+
+    @GET
     @Path("/create")
     public Response create(){
         ProductData  result= productServ.create(null);
