@@ -10,11 +10,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>product_order-runtime-serv</module>
-      <module>product_order-runtime-impl</module>
-    <module>product_order-runtime-api</module>
+        <module>product_order-runtime-impl</module>
+        <module>product_order-runtime-api</module>
         <module>product_order-runtime-local</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 </project>

@@ -1,1 +1,3 @@
+com\bisa\product_order\product_order\api\impl\FilterImpl.class
 com\bisa\product_order\product_order\api\impl\ProductImpl.class
+com\bisa\product_order\product_order\api\impl\OrderImpl.class

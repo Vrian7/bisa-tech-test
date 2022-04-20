@@ -7,3 +7,8 @@
  * Created: Apr 14, 2022
  */
 
+CREATE TABLE public.product (
+	product_id serial NOT NULL,
+	description varchar NULL,
+	CONSTRAINT product_pk PRIMARY KEY (product_id)
+);

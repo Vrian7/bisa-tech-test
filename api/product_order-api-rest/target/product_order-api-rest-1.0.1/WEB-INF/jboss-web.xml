@@ -5,5 +5,8 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 version="4.0"
 >
     <context-root>api</context-root>
-    
+    <jb-ref>
+        <ejb-ref-name>ProductProvider</ejb-ref-name>
+        <jndi-name>java:/internal/ProductProvider</jndi-name>
+    </jb-ref>
 </jboss-web>

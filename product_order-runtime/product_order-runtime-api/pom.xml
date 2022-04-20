@@ -12,7 +12,7 @@
     <version>1.0.1</version>
     <packaging>war</packaging>
 
-    <name>product_order-runtime-prov</name>
+    <name>product_order-runtime-api</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -25,6 +25,12 @@
             <artifactId>javaee-web-api</artifactId>
             <version>6.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.bisa.product_order</groupId>
+            <artifactId>product_order-runtime-impl</artifactId>
+            <version>1.0.1</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

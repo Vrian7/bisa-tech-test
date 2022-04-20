@@ -6,6 +6,8 @@ package com.bisa.product_order.api.serv;
 
 import com.bisa.product_order.api.data.OrderData;
 import com.bisa.product_order.api.data.ProductData;
+import com.bisa.product_order.tools.error.ErrorException;
+
 import java.util.List;
 
 /**
@@ -14,10 +16,11 @@ import java.util.List;
  */
 public interface FilterServ {
     String NAME = "FilterServ";
-    List<ProductData> searchByOrder(OrderData orderData);
 
-    List<OrderData> searchByProduct(ProductData productData);
+    List<ProductData> searchByOrder(OrderData orderData) throws ErrorException;
 
-    List<ProductData> search(String filter);
+    List<OrderData> searchByProduct(ProductData productData) throws ErrorException;
+
+    List<ProductData> search(String filter) throws ErrorException;
 
 }

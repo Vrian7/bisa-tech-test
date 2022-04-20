@@ -7,3 +7,9 @@
  * Created: Apr 14, 2022
  */
 
+CREATE TABLE public."order" (
+	order_id serial NOT NULL,
+	date_ date NULL,
+	description varchar NULL,
+	CONSTRAINT order_pk PRIMARY KEY (order_id)
+);
