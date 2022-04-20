@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.bisa.product_order.product.order.tools.error;
+package com.bisa.product_order.tools.error;
 
-import com.bisa.product_order.product.order.tools.message.ValidationMessage;
+import com.bisa.product_order.tools.message.ValidationMessage;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;

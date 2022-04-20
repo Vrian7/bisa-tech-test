@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>com.bisa.product_order</groupId>
-            <artifactId>pro</artifactId>
+            <artifactId>product_order-domain</artifactId>
             <version>1.0.1</version>
             <scope>provided</scope>
         </dependency>

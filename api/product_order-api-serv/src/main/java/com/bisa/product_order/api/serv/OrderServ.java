@@ -5,6 +5,8 @@
 package com.bisa.product_order.api.serv;
 
 import com.bisa.product_order.api.data.OrderData;
+import com.bisa.product_order.tools.error.ErrorException;
+
 import java.util.List;
 
 /**
@@ -12,14 +14,14 @@ import java.util.List;
  * @author brian.barrera
  */
 public interface OrderServ {
-    
+
     String NAME = "OrderServ";
 
-    OrderData create(OrderData productData);
+    OrderData create(OrderData productData) throws ErrorException;
 
-    OrderData edit(OrderData productData);
+    OrderData edit(OrderData productData) throws ErrorException;
 
-    Boolean delete(Long code);
+    Boolean delete(Long code) throws ErrorException;
 
-    List<OrderData> getList();
+    List<OrderData> getList() throws ErrorException;
 }

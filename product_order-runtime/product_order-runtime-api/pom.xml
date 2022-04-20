@@ -12,7 +12,7 @@
     <version>1.0.1</version>
     <packaging>war</packaging>
 
-    <name>product_order-runtime-prov</name>
+    <name>product_order-runtime-api</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

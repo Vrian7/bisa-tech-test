@@ -1,4 +1,4 @@
-package com.bisa.product_order.product.order.tools.Config;
+package com.bisa.product_order.tools.Config;
 
 /**
  *
